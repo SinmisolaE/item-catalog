@@ -36,7 +36,7 @@ Node.js and npm installed on your machine.
 Steps to Run the Project:
 
 Clone the repository:
-git clone <repository-url>
+git clone: https://github.com/SinmisolaE/item-catalog.git
 
 Navigate to the project directory:
 cd product-catalog
@@ -75,6 +75,6 @@ Connect to a real backend API for product data.
 
 
 Contact
-Sinmisola Ajao
+name: Sinmisola Ajao
 email: sinmisolaajao@gmail.com
-github: github.com/SinmisolaE/
+github: github.com/SinmisolaE/item-catalog
