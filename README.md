@@ -4,7 +4,7 @@ Product Catalog
 A dynamic product catalog application built with React. This application allows users to search for products by name or description, filter products by price range, and filter by category. It is a user-friendly interface designed for a seamless browsing experience.
 
 
-Features
+•Features
 
 
 1. Search Functionality
@@ -42,8 +42,8 @@ Development Tools: Node.js, npm
 Version Control: Git
 
 
-Installation and Setup
-Prerequisites:
+•Installation and Setup
+•Prerequisites:
 Node.js and npm installed on your machine.
 
 Steps to Run the Project:
@@ -64,29 +64,30 @@ Open your browser and navigate to:
 http://localhost:3000
 
 
-How It Works
+•Core Functionality
 
-
-Core Functionality
-
-State Management:
+•State Management:
 
 useState is used for managing the search term, price range, and selected categories.
 
-Dynamic Filtering:
+
+•Dynamic Filtering:
 
 Products are filtered based on the user's input (search term, price range, and selected categories).
 
 The filtered product list updates instantly.
 
-Styling
+
+
+•Styling
 
 Responsive layout ensures products are displayed in a grid for better usability.
 
 CSS is used to style the application, giving it a modern look.
 
 
-Future Improvements
+
+•Future Improvements
 
 Add ratings-based filtering.
 
@@ -95,7 +96,7 @@ Add "availability" and "sorting" options (e.g., by price or rating).
 Connect to a real backend API for product data.
 
 
-Contact
+•Contact
 
 name: Sinmisola Ajao
 
