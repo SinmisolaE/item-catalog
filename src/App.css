@@ -1,0 +1,108 @@
+body {
+  background-color: #9a979b;
+}
+
+/*container for the entire page*/
+.product-catalog {
+  padding-top: 20px;;
+  padding-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Search product section */
+.search-product {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+/* Input field for searching products by name or description */
+.searchInput {
+  width: 50%;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+/* Price filter section */
+.price {
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+}
+
+/* Input field for specifying a price range */
+.priceInput {
+  padding: 6px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 0.5px solid #a19c9c;
+}
+
+/* Category filter section */
+.category {
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+
+/* Label for the category dropdown */
+h3 {
+  margin-right: 5px;
+  font-size: 17px;
+  
+}
+
+/* Dropdown menu for selecting a product category */
+select {
+  height: 20px;
+  margin-top: 20px;
+}
+
+/* Grid container for the products */
+.product {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0;
+  list-style-type: none;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+/* Individual product item styling */
+.productItem {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.productItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.productItem h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.productItem p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+/* Responsive design: Ensures good layout on smaller screens */
+@media (max-width: 768px) {
+  .product {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}

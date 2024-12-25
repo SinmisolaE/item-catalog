@@ -1,0 +1,22 @@
+[
+    { "id": 1, "name": "Laptop", "description": "Gaming laptop", "price": 1000, "category": "Electronics", "rating": 4.5 },
+    { "id": 2, "name": "Phone", "description": "Smartphone with a great camera", "price": 800, "category": "Electronics", "rating": 4.0 },
+    { "id": 3, "name": "Shoes", "description": "Comfortable running shoes", "price": 120, "category": "Fashion", "rating": 4.2 },
+    { "id": 4, "name": "Tablet", "description": "Lightweight tablet for reading and browsing", "price": 500, "category": "Electronics", "rating": 4.3 },
+    { "id": 5, "name": "Headphones", "description": "Noise-cancelling over-ear headphones", "price": 250, "category": "Electronics", "rating": 4.7 },
+    { "id": 6, "name": "Backpack", "description": "Durable backpack for daily use", "price": 60, "category": "Fashion", "rating": 4.4 },
+    { "id": 7, "name": "T-Shirt", "description": "Cotton t-shirt with a trendy design", "price": 25, "category": "Fashion", "rating": 4.1 },
+    { "id": 8, "name": "Cookbook", "description": "Healthy recipes for everyday cooking", "price": 20, "category": "Books", "rating": 4.6 },
+    { "id": 9, "name": "Mystery Novel", "description": "A thrilling mystery novel", "price": 15, "category": "Books", "rating": 4.2 },
+    { "id": 10, "name": "Basketball", "description": "Official size and weight basketball", "price": 30, "category": "Sports", "rating": 4.8 },
+    { "id": 11, "name": "Yoga Mat", "description": "Non-slip yoga mat with extra padding", "price": 35, "category": "Sports", "rating": 4.5 },
+    { "id": 12, "name": "Puzzle Toy", "description": "3D puzzle toy for kids and adults", "price": 18, "category": "Toys", "rating": 4.3 },
+    { "id": 13, "name": "Action Figure", "description": "Collectible superhero action figure", "price": 40, "category": "Toys", "rating": 4.9 },
+    { "id": 14, "name": "Sneakers", "description": "Stylish sneakers for everyday wear", "price": 90, "category": "Fashion", "rating": 4.5 },
+    { "id": 15, "name": "Smartwatch", "description": "Feature-packed smartwatch", "price": 300, "category": "Electronics", "rating": 4.6 },
+    { "id": 16, "name": "Cookware Set", "description": "Non-stick pots and pans set", "price": 150, "category": "Home", "rating": 4.4 },
+    { "id": 17, "name": "Gaming Chair", "description": "Comfortable gaming chair with lumbar support", "price": 350, "category": "Home", "rating": 4.8 },
+    { "id": 18, "name": "Board Game", "description": "Fun strategy board game for all ages", "price": 45, "category": "Toys", "rating": 4.7 },
+    { "id": 19, "name": "Soccer Ball", "description": "Durable soccer ball for outdoor play", "price": 25, "category": "Sports", "rating": 4.4 },
+    { "id": 20, "name": "Biography Book", "description": "Inspiring biography of a famous figure", "price": 22, "category": "Books", "rating": 4.8 }
+]
